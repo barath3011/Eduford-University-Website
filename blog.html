@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eduford.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Eduford</title>
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+         <a href="eduford.html"><img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav_links" id="navlinks">
+              <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="eduford.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+       </nav>
+       <h1>Our Certificate & online programs for 2024</h1>
+    </section>
+
+    <!-------- blog page content ------->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="eduford_img/certificate.jpg" alt="">
+                <h2>Our Certificate & online programs for 2024</h2>
+                <p>As we step into 2024, the education landscape continues to evolve, offering exciting opportunities for individuals looking to enhance their skills and advance their careers. At eduford, we are proud to introduce our diverse range of certificate and online programs designed to cater to various audiences. Whether you’re a professional seeking to upskill, a recent graduate considering further education, or someone looking to change careers, our programs provide the flexibility and resources needed to succeed. </p><br>
+                <p><b>Why Choose Our Certificate Programs?</b><br>
+                   Certificate programs are an excellent way to gain specialized knowledge and skills in a focused area. They are typically shorter than degree programs, making them perfect for those with busy schedules. Our 2024 certificate offerings span fields such as business, technology, healthcare, and the arts, ensuring that you acquire practical skills aligned with current market demands. </p>
+                   <p><br>
+                    <b> Key Benefits:</b> <br>
+                    
+                    1. Accelerated Learning: Our structured programs allow you to acquire new skills in a condensed timeframe. <br>                   
+                    2. Industry-Relevant Skills: Each course is designed to meet industry standards, providing practical knowledge for immediate application.  <br>
+                    3. Flexible Learning: Choose from online and in-person classes that fit your lifestyle.</p><br>
+                   <b><p> Explore Our Online Programs</b></p>
+                    <p>In addition to our certificates, we offer a variety of online programs, perfect for those who prefer to study at their own pace. Our featured online courses for 2024 include: <br> Digital Marketing Certification,Data Science and Analytics,Project Management,Health and Wellness Coaching,Cybersecurity Fundamentals</p>  
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form"  id="myform" onsubmit="return showThankYouMessage();">
+                        <input type="text" placeholder="Enter name" required>
+                        <input type="email" placeholder="Enter Email" required>
+                        <textarea rows="5" placeholder="Your comment" required></textarea>
+                        <button type="submit" class="button about-button" >POST COMMENT</button>
+                    </form>
+                </div>
+                <div id="tq"  class="thankyou thankyou1"> 
+                    <img src="eduford_img/tick2.jpg" alt="">
+                    <h2>Thank You!</h2>
+                    <p>Thank you for sharing your thoughts</p>
+                    <button type="button" onclick="hideThankYouMessage()">OK</button>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post-categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>Autocad</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+
+    <!------- footer ------->
+
+    <footer class="footer">
+        <h4>About Us</h4>
+        <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university. We’re a community of people who bridge our disparate experiences and identities. Meet the people and places that make Eduford home.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
