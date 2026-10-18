@@ -126,7 +126,7 @@ nav .fa-solid{
 .course h1{
     font-size: 36px;
 }
-.course p{
+.course .row p{
     color: #777;
     font-size: 14px;
     font-weight: 300;
@@ -237,8 +237,10 @@ nav .fa-solid{
 /*----- testimonials ----- */
 
 .testimonials{
-    width: 80%;
-    margin: auto;
+    width: fit-content;
+    /* margin: 20px; */
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 100px;
     text-align: center;
 }
